@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     var frameLocAndSize:[CGFloat] = []
 
+    var timer = NSTimer()
     
     @IBOutlet weak var image: UIImageView!
     
@@ -32,6 +33,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Update image with timer to simulation animation
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.2, target: self, selector: "updateImage", userInfo: nil, repeats: true)
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,6 +43,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    func updateImage() {
+        let newImage = UIImage(named: imageName[count])
+        image.image = newImage
+        ++count
+        if count == imageName.count {
+            count = 0
+        }
+    }
+    
+    
     // +---    Methods to create animation effect ---+
     // +---------------------------------------------+
     override func viewDidLayoutSubviews() {
