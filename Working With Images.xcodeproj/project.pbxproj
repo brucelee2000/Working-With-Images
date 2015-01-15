@@ -13,6 +13,11 @@
 		A73D32301A6850DB008C40B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73D322F1A6850DB008C40B1 /* Images.xcassets */; };
 		A73D32331A6850DB008C40B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73D32311A6850DB008C40B1 /* LaunchScreen.xib */; };
 		A73D323F1A6850DB008C40B1 /* Working_With_ImagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73D323E1A6850DB008C40B1 /* Working_With_ImagesTests.swift */; };
+		A73D324D1A685137008C40B1 /* Two@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A73D32481A685136008C40B1 /* Two@3x.png */; };
+		A73D324E1A685137008C40B1 /* Three@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A73D32491A685136008C40B1 /* Three@3x.png */; };
+		A73D324F1A685137008C40B1 /* Ten@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A73D324A1A685136008C40B1 /* Ten@3x.png */; };
+		A73D32501A685137008C40B1 /* Queen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A73D324B1A685137008C40B1 /* Queen@3x.png */; };
+		A73D32511A685137008C40B1 /* King@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A73D324C1A685137008C40B1 /* King@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		A73D32381A6850DB008C40B1 /* Working With ImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Working With ImagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73D323D1A6850DB008C40B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A73D323E1A6850DB008C40B1 /* Working_With_ImagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Working_With_ImagesTests.swift; sourceTree = "<group>"; };
+		A73D32481A685136008C40B1 /* Two@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Two@3x.png"; sourceTree = "<group>"; };
+		A73D32491A685136008C40B1 /* Three@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Three@3x.png"; sourceTree = "<group>"; };
+		A73D324A1A685136008C40B1 /* Ten@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ten@3x.png"; sourceTree = "<group>"; };
+		A73D324B1A685137008C40B1 /* Queen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Queen@3x.png"; sourceTree = "<group>"; };
+		A73D324C1A685137008C40B1 /* King@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "King@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,11 @@
 				A73D32281A6850DB008C40B1 /* AppDelegate.swift */,
 				A73D322A1A6850DB008C40B1 /* ViewController.swift */,
 				A73D322C1A6850DB008C40B1 /* Main.storyboard */,
+				A73D32481A685136008C40B1 /* Two@3x.png */,
+				A73D32491A685136008C40B1 /* Three@3x.png */,
+				A73D324A1A685136008C40B1 /* Ten@3x.png */,
+				A73D324B1A685137008C40B1 /* Queen@3x.png */,
+				A73D324C1A685137008C40B1 /* King@3x.png */,
 				A73D322F1A6850DB008C40B1 /* Images.xcassets */,
 				A73D32311A6850DB008C40B1 /* LaunchScreen.xib */,
 				A73D32261A6850DB008C40B1 /* Supporting Files */,
@@ -194,7 +209,12 @@
 			files = (
 				A73D322E1A6850DB008C40B1 /* Main.storyboard in Resources */,
 				A73D32331A6850DB008C40B1 /* LaunchScreen.xib in Resources */,
+				A73D32511A685137008C40B1 /* King@3x.png in Resources */,
+				A73D324D1A685137008C40B1 /* Two@3x.png in Resources */,
+				A73D324F1A685137008C40B1 /* Ten@3x.png in Resources */,
 				A73D32301A6850DB008C40B1 /* Images.xcassets in Resources */,
+				A73D32501A685137008C40B1 /* Queen@3x.png in Resources */,
+				A73D324E1A685137008C40B1 /* Three@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
